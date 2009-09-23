@@ -19,7 +19,7 @@
 #define USE_LEGACY_SQLITE3 1
 #endif
 
-@interface FDOSQLiteCommand ()
+@interface FDOSQLiteCommand (PRIVATE)
 -(void)preBindStatementCheck;
 -(int)numberFromParameterName:(NSString*)namedParameter;
 @end

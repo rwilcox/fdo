@@ -12,7 +12,7 @@
 #import "FDOSQLiteException.h"
 #import "FDOLog.h"
 
-@interface FDOSQLiteConnection ()
+@interface FDOSQLiteConnection (PRIVATE)
 -(void)closeOpenedCommands;
 @end
 
